@@ -1,3 +1,4 @@
+import streamlit as st
 def main():
     number1 = st.number_input('Insert NUmber1')
     st.write('The current number is ', number1)
